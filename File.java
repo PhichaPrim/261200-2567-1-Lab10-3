@@ -9,16 +9,15 @@ public class File {
         this.filePath = filePath;
     }
 
-    public String getFileName() {
-        return this.fileName;
+    public String getFilePath() {
+        return filePath;
     }
 
     public String getFileType() {
-        return this.fileType;
+        return fileType;
     }
 
-    public String getFilePath() {
-        return this.filePath;
+    public String getFileName() {
+        return fileName;
     }
-    // TODO: How about setters? Why?
 }
